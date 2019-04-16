@@ -1,0 +1,80 @@
+#profilePic {
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 15px;
+}
+
+.myName {
+    float: left;
+    padding: 20px;
+    font-size: 32px;
+    width: 200px;
+    color: #ffffff;
+    background-color: teal;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.aboutMeTitle {
+    color: teal;
+    font-size: 26px;
+}
+
+.aboutMe {
+    color: teal;
+    font-size: 18px;
+}
+
+#separateLine {
+    margin-bottom: 30 px;
+}
+
+.navigation {
+    float: right;
+    padding: 25px;
+    font-size: 25px;
+    margin-right: 15%;
+}
+
+.topBar {
+    height: 77px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.push {
+    height: 50px;
+}
+
+
+main {
+    clear: both;
+    width: 960px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin: auto;
+    min-height: 100%;
+    margin-bottom: 63px;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url(../images/prism.png);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-top: 8px solid #4aaaa5;
+    background-color: gray;
+    height: 50px;
+    margin: 0;
+    bottom: 0;
+    position: sticky;
+    
+}
+
