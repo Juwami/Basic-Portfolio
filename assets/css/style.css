@@ -43,6 +43,20 @@
     margin-bottom: 40px;
 }
 
+.pageContent {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.pageContent::after {
+    content: "";
+    display: block;
+}
+
+footer, .pageContent::after {
+    height: 50px;
+}
+
 main {
     clear: both;
     width: 960px;
@@ -51,6 +65,11 @@ main {
     border-color: #dddddd;
     margin: auto;
     min-height: 100%;
+}
+
+html {
+    height: 100%;
+    margin: 0;
 }
 
 body {
@@ -67,7 +86,8 @@ footer {
     background-color: gray;
     height: 50px;
     position: sticky;
-    bottom: 0;
+    /* bottom: 0;
+    margin-top: 40px; */
 }
 
 form, input, textarea, br {
@@ -76,7 +96,7 @@ form, input, textarea, br {
 }
 
 textarea {
-    height: 60px;
+    height: 100px;
 }
 
 button {
@@ -87,9 +107,3 @@ button {
     font-size: 24px;
     margin-top: 25px;
 }
-
-/* .pageWrap {
-    min-height: 100%;
-    margin: -50px;
-} */
-
