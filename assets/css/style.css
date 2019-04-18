@@ -61,6 +61,16 @@ p, form, footer, .navigation {
     display: block;
 }
 
+.portfolioPics {
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px 0px 0px;
+}
+
+.portfolioContainer {
+    width: 100%;
+}
+
 footer, .pageContent::after {
     height: 50px;
 }
