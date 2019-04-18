@@ -1,8 +1,16 @@
+.mainHeader, .myName {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+p, form, footer, .navigation {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 #profilePic {
     height: 250px;
     width: 250px;
     float: left;
-    margin: 15px;
+    margin: 15px 15px 15px 0px;
 }
 
 .myName {
@@ -11,19 +19,19 @@
     font-size: 32px;
     width: 200px;
     color: #ffffff;
-    background-color: teal;
+    background-color: #4aaaa5;
     text-align: center;
     margin-left: 15%;
 }
 
 .mainHeader {
-    color: teal;
-    font-size: 30px;
+    color: #4aaaa5;
+    font-size: 28px;
 }
 
 .aboutMe {
-    color: teal;
-    font-size: 18px;
+    color: #4aaaa5;
+    font-size: 24px;
 }
 
 .separateLine {
@@ -39,7 +47,7 @@
 
 .topBar {
     height: 77px;
-    background-color: white;
+    background-color: #ffffff;
     margin-bottom: 40px;
 }
 
@@ -76,14 +84,13 @@ body {
     height: 100%;
     margin: 0;
     background-image: url(../images/prism.png);
-    position: relative;
 }
 
 footer {
     text-align: center;
-    color: white;
+    color: #ffffff;
     border-top: 8px solid #4aaaa5;
-    background-color: gray;
+    background-color: #666666;
     height: 50px;
     position: sticky;
     /* bottom: 0;
@@ -100,8 +107,8 @@ textarea {
 }
 
 button {
-    background-color: teal;
-    color: white;
+    background-color: #4aaaa5;
+    color: #ffffff;
     width: 160px;
     height: 40px;
     font-size: 24px;
